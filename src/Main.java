@@ -4,8 +4,8 @@ public class Main {
         SalesManager salesmanager = new SalesManager(sales);
         long max = salesmanager.max();
         System.out.println(max);
-        int min = salesmanager.min();
-        int average = salesmanager.average();
+        long min = salesmanager.min();
+        long average = salesmanager.average();
         System.out.println(min);
         System.out.println(average);
     }
